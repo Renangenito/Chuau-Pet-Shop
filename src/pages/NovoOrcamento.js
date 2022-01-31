@@ -1,10 +1,11 @@
 import React from 'react';
-import styles from '../pages/NovoOrcamento.module.css'
+import Formulario from '../projeto/Formulario'
+import styles from './NovoOrcamento.module.css'
 function NovoOrcamento({to, text}){
     return(
-       <div>
+       <div className={styles.orcamento}>
            <h1>Novo Orçamento</h1>
-           <p>Form</p>
+           <Formulario />
        </div>
     )
 }

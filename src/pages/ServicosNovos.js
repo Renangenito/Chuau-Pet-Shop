@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './ServicosNovos.module.css'
+// import styles from './ServicosNovos.module.css'
 function ServicosNovos(){
     return(
         <div>

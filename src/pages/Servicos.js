@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './Servicos.module.css'
+// import styles from './Servicos.module.css'
 function Servicos(){
     return(
         <div>

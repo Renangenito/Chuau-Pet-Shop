@@ -1,0 +1,17 @@
+.div_select{
+    width: 100%;
+}
+.div_select label{
+    font-size: 1.3em;
+    font-weight: bold;
+}
+.div_select select{
+    width: 100%;
+    height: 3em;
+}
+.div_select option{
+    font-weight: 500;
+}
+.opcoes{
+    font-size: 1.3em;
+}
