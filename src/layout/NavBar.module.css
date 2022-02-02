@@ -32,3 +32,21 @@
     cursor: pointer;
     color: #058edd;
 }
+
+
+.titulo_logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.titulo_logo h1{
+    font-size: 2.5em;
+    color: #FFF;
+    margin: auto 0;
+}
+
+.titulo_logo span{
+    color: #ffffff;
+    padding: 0 0.2em;
+    background-color: #0075b8;
+}

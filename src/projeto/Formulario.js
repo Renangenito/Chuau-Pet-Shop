@@ -4,15 +4,35 @@ import Button from "../ComponentsDoForm/Button";
 import styles from '../projeto/Formulario.module.css'
 function Formulario() {
   const [campos, setCampos] = useState({})
+  const [cliente, setCliente] = useState({})
+
+  function adicionarCliente() {
+    
+    fetch('http://localhost:5000/clientes', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(cliente),
+    })
+      .then((resp) => resp.json())
+      .then((data) => {console.log(data)})
+  }
 
   function handleChange(e) {
+    
     setCampos({ ...campos, [e.target.name]: e.target.value })
+    setCliente({
+        nome: campos.nome,
+        email: campos.email,
+        telefone: campos.tel
+      
+    })
   }
   function handleSubmit(e){
     e.preventDefault()
-    console.log(campos.nome)
-    console.log(campos.email)
-    console.log(campos.tel)
+    adicionarCliente()
+    setCampos('')
   }
   return (
     <form className={styles.formulario}>
@@ -37,7 +57,7 @@ function Formulario() {
       />
       <Input
         name="tel"
-        placeholder="Digite o seu telefone"
+        placeholder="Digite o seu tel"
         type="tel"
         text="Telefone"
         id="tel"

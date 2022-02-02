@@ -1,0 +1,34 @@
+{
+  "clientes": [
+    {
+      "nome": "Renan Bezerra de Lima",
+      "email": "renangenito@hotmail.com",
+      "telefone": "1194939175",
+      "id": 1
+    },
+    {
+      "nome": "Silvia Martins Durao Lima",
+      "email": "silvi@hotmail.com",
+      "telefone": "1146388173",
+      "id": 2
+    }
+  ],
+  "orcamentos": [],
+  "precos": [
+    {
+      "id": 1,
+      "nome": "Banho",
+      "preco": "50"
+    },
+    {
+      "id": 2,
+      "nome": "Banho e Tosa",
+      "preco": "70"
+    },
+    {
+      "id": 3,
+      "nome": "Tosa Higiênica",
+      "preco": "20"
+    }
+  ]
+}

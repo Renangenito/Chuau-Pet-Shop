@@ -2,7 +2,7 @@ import './App.css';
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Home from './pages/Home';
-import Servicos from './pages/Servicos';
+import Orcamentos from './pages/Orcamentos';
 import ServicosNovos from './pages/ServicosNovos';
 import NavBar from './layout/NavBar';
 import Footer from './layout/Footer';
@@ -16,7 +16,7 @@ function App() {
         <NavBar/>
           <Routes>
               <Route path='/' exact element={<Home />} />
-              <Route path='/servicos' element={<Servicos />} />
+              <Route path='/orcamentos' element={<Orcamentos />} />
               <Route path='/novosservicos' element={<ServicosNovos />} />
               <Route path='/novoorcamento' element={<NovoOrcamento />} />
           </Routes>

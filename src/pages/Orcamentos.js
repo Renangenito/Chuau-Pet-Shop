@@ -1,11 +1,11 @@
 import React from 'react';
 // import styles from './Servicos.module.css'
-function Servicos(){
+function Orcamentos(){
     return(
         <div>
-            <h1>Serviços</h1>
+            <h1>Orçamentos</h1>
         </div>
     )
 }
 
-export default Servicos;
+export default Orcamentos;
