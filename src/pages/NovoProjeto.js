@@ -1,12 +1,12 @@
 import React from 'react';
 import Formulario from '../projeto/Formulario'
-import styles from './NovoOrcamento.module.css'
-function NovoOrcamento({to, text}){
+import styles from './NovoProjeto.module.css'
+function NovoProjeto(){
     return(
-       <div className={styles.orcamento}>
+       <div className={styles.projeto}>
            <h1>Novo Orçamento</h1>
            <Formulario />
        </div>
     )
 }
-export default NovoOrcamento;
+export default NovoProjeto;

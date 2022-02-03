@@ -1,0 +1,15 @@
+.projetos{
+    width: 95%;
+    min-height: 25rem;
+    margin: 0 auto;
+}
+.projetos h1{
+    margin: 1em 4em;
+}
+
+.cards{
+    width: 100%;
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+}

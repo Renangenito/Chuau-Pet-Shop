@@ -1,13 +1,13 @@
-.div_input{
+.div_text_area{
     width: 100%;
 }
-.div_input label{
+.div_text_area label{
     font-size: 1.3em;
     font-weight: bold;
 }
-.div_input input{
+.div_text_area textarea{
     width: 100%;
-    height: 3em;
+    height: 6em;
     outline: none;
     margin-bottom: 1em;
     margin-top: .2em;

@@ -16,7 +16,7 @@ function Footer(){
                     </li>
 
                 </ul>
-                <p>Chuau Pet <span>&copy;</span></p>
+                <p>Gerenciador Eureka <span>&copy;</span></p>
         </footer>
     )
 }

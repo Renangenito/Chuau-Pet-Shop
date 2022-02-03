@@ -9,12 +9,13 @@
 
 .home_container p{
     color: #5c5c5c;
-    font-size: 26px;
+    font-size: 2em;
     font-weight: 700;
+    margin-bottom: 1em;
 }
 
 .home_container img{
-    width: 400px;
+    width: 200px;
     height: 340px;
 }
 .home_container h1 span {

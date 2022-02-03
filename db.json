@@ -1,34 +1,32 @@
 {
-  "clientes": [
+  "projetos": [
     {
-      "nome": "Renan Bezerra de Lima",
-      "email": "renangenito@hotmail.com",
-      "telefone": "1194939175",
+      "nome": "Fernanda Ribeiro",
+      "projeto": "Vídeo Instagram",
+      "data": "2022-02-03",
+      "sobre": "Trata-se de um vídeo tutorial de hidratação no cabel",
       "id": 1
     },
     {
-      "nome": "Silvia Martins Durao Lima",
-      "email": "silvi@hotmail.com",
-      "telefone": "1146388173",
+      "nome": "Renan Bezerra",
+      "projeto": "Vídeo",
+      "data": "2022-02-03",
+      "sobre": "Teste dat",
       "id": 2
-    }
-  ],
-  "orcamentos": [],
-  "precos": [
-    {
-      "id": 1,
-      "nome": "Banho",
-      "preco": "50"
     },
     {
-      "id": 2,
-      "nome": "Banho e Tosa",
-      "preco": "70"
+      "nome": "Renan Bezerra",
+      "projeto": "Vídeo 2",
+      "data": "2022-02-05",
+      "sobre": "Testand",
+      "id": 3
     },
     {
-      "id": 3,
-      "nome": "Tosa Higiênica",
-      "preco": "20"
+      "nome": "Fernanda Ribeiro",
+      "projeto": "Vídeo para youtube",
+      "data": "2022-02-03",
+      "sobre": "Vídeo cantand",
+      "id": 4
     }
   ]
 }

@@ -1,16 +1,16 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
-import pataPet from '../img/pata-pet.png'
+import logoLampada from '../img/lampada.jpg'
 import styles from '../layout/NavBar.module.css'
 
 function NavBar(){
     return(
         <div className={styles.navBar}>
             <Link to='/'>
-             <img src={pataPet} alt='pata-pet'/> 
+             <img src={logoLampada} alt='logo-lampada'/> 
             </Link>
             <div className={styles.titulo_logo}>
-            <h1>Banho e tosa <span>Chuau Pet</span> </h1>
+            <h1>Gerenciador de idéias <span>Eureka</span> </h1>
 
             </div>
           <ul className={styles.lista}>
@@ -18,11 +18,12 @@ function NavBar(){
               <Link to='/'>Home</Link>
             </li>
             <li className={styles.item}>
-              <Link to='/orcamentos'>Orçamentos</Link>
+              <Link to='/projetos'>Projetos</Link>
             </li>
             <li className={styles.item}>
-              <Link to='/novosservicos'>Novos Serviços</Link>
+              <Link to='/projetos'>Contatos</Link>
             </li>
+            
           </ul>
         </div>
     )
