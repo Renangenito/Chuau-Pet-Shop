@@ -34,6 +34,8 @@ function Formulario() {
   function handleChange(e) {
     
     setCampos({ ...campos, [e.target.name]: e.target.value })
+    campos.data = new Date(campos.data);
+    campos.data = campos.data.toLocaleDateString('pt-BR', {timeZone: 'UTC'});
     setProjetos({
         nome: campos.nome,
         projeto: campos.projeto,
@@ -44,13 +46,16 @@ function Formulario() {
   }
   function handleSubmit(e){
     e.preventDefault()
+    console.log('DAta informada: '+campos.data)
     adicionarProjetos()
     setCampos('')
   }
 
 
   return (
-    <form className={styles.formulario}>
+    <form className={styles.formulario}
+    onSubmit={handleSubmit}
+    >
       <Input
         name="nome"
         placeholder="Digite o seu nome"
@@ -92,7 +97,7 @@ function Formulario() {
       />
 
 
-      <Button handleOnSubmit={handleSubmit} text='Confirmar' />
+      <Button  text='Confirmar' />
     </form>
   );
 }

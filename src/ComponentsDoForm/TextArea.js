@@ -10,7 +10,9 @@ function TextArea({type, text, name, placeholder, handleOnChange, value}){
            id={name}
            placeholder={placeholder}
            onChange={handleOnChange}
-           value={value}/>
+           value={value}
+           required
+           />
         </div>
     )
 }

@@ -18,6 +18,19 @@ const [projetos, setProjetos] = useState([])
       console.log("Aqui é o log dos projetos"+ projetos)
       // eslint-disable-next-line 
   }, [])
+
+  function removeProjeto(id) {
+    fetch(`http://localhost:5000/projetos/${id}`, {
+      method: 'DELETE',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+    })
+      .then((resp) => resp.json())
+      .then((data) => {
+        setProjetos(projetos.filter((projeto) => projeto.id !== id))
+      })
+  }
   
   return (
     <div className={styles.projetos}>
@@ -29,7 +42,10 @@ const [projetos, setProjetos] = useState([])
         projeto={projeto.projeto}
         autor={projeto.nome}
         data={projeto.data}
-        sobre={projeto.sobre}/>
+        sobre={projeto.sobre}
+        id={projeto.id}
+        handleRemove={removeProjeto}
+        />
         ))}
 
       </div>
@@ -38,3 +54,4 @@ const [projetos, setProjetos] = useState([])
 }
 
 export default Projetos;
+
