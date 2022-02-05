@@ -30,14 +30,23 @@
 }
 
 .project_card button{
-    width: 5em;
-    height: 2em;
+   padding: .5em;
     font-size: 1em;
     margin-left: .8em;
     margin-bottom: .8em;
-    
+    border: 1px solid #000;
+   
 }
-.project_card button:hover{
+
+.botao_link{
+    padding: .6em;
+     font-size: 1em;
+     margin-left: .8em;
+     margin-bottom: .8em;
+     border: 1px solid #000;
+     color: #000;
+ }
+.project_card button:hover, .botao_link:hover{
     cursor: pointer;
     color: #0075b8;
     border-color: #0075b8;

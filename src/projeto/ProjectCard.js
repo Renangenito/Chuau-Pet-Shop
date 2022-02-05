@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
 import styles from './ProjectCard.module.css';
 import { BsPencil, BsFillTrashFill } from 'react-icons/bs'
 function ProjectCard({id, projeto, autor, data, sobre, handleRemove}){
@@ -17,10 +18,10 @@ function ProjectCard({id, projeto, autor, data, sobre, handleRemove}){
             <p><span> Sobre:</span></p>
             <p>{sobre}</p>
             </div>
-            <button>
+            <Link className={styles.botao_link} to='/projeto/' >
                 <BsPencil/>
                 Editar
-            </button>
+            </Link>
             <button onClick={remove}>
                 <BsFillTrashFill/>
                 Excluir
