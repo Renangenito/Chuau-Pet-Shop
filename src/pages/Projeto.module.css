@@ -1,0 +1,38 @@
+.projeto{
+    width: 100%;
+    margin-bottom: 8em;
+}
+
+
+.edit_card{
+    width: 90%;
+    margin: 0;
+    margin: 5em;
+    border-bottom: 1px solid #0075b8;
+}
+.div_titulo{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.edit_card h3{
+    background-color: #0075b8;
+    color: #FFF;
+    font-size: 2em;
+    padding: .4em;
+    margin-bottom: 0.7em;
+    width: 35%;
+
+}
+
+.edit_card p{
+    font-size: 1.3em;
+    margin: .8em;
+}
+
+.edit_card p span{
+    font-weight: bold;
+    padding-left: 0.8em;
+    padding-top: 2em;
+}

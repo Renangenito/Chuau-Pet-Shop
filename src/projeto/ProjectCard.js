@@ -18,7 +18,7 @@ function ProjectCard({id, projeto, autor, data, sobre, handleRemove}){
             <p><span> Sobre:</span></p>
             <p>{sobre}</p>
             </div>
-            <Link className={styles.botao_link} to='/projeto/' >
+            <Link className={styles.botao_link} to={`/projeto/${id}`} >
                 <BsPencil/>
                 Editar
             </Link>
