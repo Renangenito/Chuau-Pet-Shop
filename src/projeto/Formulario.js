@@ -95,8 +95,6 @@ function Formulario() {
       value={campos.sobre || ""}
       handleOnChange={handleChange}
       />
-
-
       <Button  text='Confirmar' />
     </form>
   );
