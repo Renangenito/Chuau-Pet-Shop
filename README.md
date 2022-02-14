@@ -1,3 +1,13 @@
+# Eureka
+## É uma aplicação para salvar idéias de projetos, podendo adicionar, editar e excluír os mesmos!
+# Home
+![home](https://user-images.githubusercontent.com/77756047/153940212-51915806-4c41-4e3a-92f5-31a418f939f2.png)
+# Formulário
+![formulario](https://user-images.githubusercontent.com/77756047/153940206-45e93457-2cb7-4640-a8a1-c1e14e5ae466.png)
+# Projetos
+![projetos](https://user-images.githubusercontent.com/77756047/153940215-fed59cad-1038-452c-a0af-c6c879c7ba3f.png)
+# Edição
+![edição](https://user-images.githubusercontent.com/77756047/153940216-a344b564-2cde-4c3a-bf5f-df630ab0eec3.png)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
