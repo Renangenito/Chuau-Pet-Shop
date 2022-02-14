@@ -1,0 +1,22 @@
+.sobre{
+
+    margin-top: 1em;
+    padding-bottom: 8em;
+
+}
+.sobre h1{
+    color: white;
+    padding: 1em;
+    background-image: linear-gradient(to right, #b63548, yellow);
+    margin: .6em;
+}
+.sobre p{
+    padding: 2em;
+    color: white;
+    margin: 1em;
+    font-size: 1.2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: linear-gradient(to right, #b63548, yellow)
+
+}
+

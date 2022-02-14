@@ -1,53 +1,25 @@
 {
   "projetos": [
     {
-      "nome": "Renan Bezerra",
+      "nome": "Renan",
       "projeto": "Vídeo para o Youtube",
-      "data": "05/02/2022",
-      "sobre": "Video aula de guitarr",
+      "data": "2022-03-10",
+      "sobre": "Gravar um vídeo tutorial de guitarra",
       "id": 1
     },
     {
-      "nome": "Fotos marketing",
+      "nome": "Fernanda",
       "projeto": "Marketing digital",
-      "data": "15/02/2022",
-      "sobre": "Imagens digitai",
+      "data": "2022-03-10",
+      "sobre": "Criar publicações de vendas",
       "id": 2
     },
     {
-      "nome": "Renan Lima",
-      "projeto": "Música",
-      "data": "20/02/2022",
-      "sobre": "Gravar uma música com a banda em um estúdio profissional com mixagem e masterização para depois gravar um vdeo clipe para o Youtube.",
+      "nome": "Thiago",
+      "projeto": "Página instagram",
+      "data": "02/04/2022",
+      "sobre": "Criar uma página no Instagram de barbearia!",
       "id": 3
-    },
-    {
-      "nome": "Renan Bezerra de Lima",
-      "projeto": "Vídeo para o Youtube",
-      "data": "01/01/2022",
-      "sobre": "HAHAHAHAH",
-      "id": 4
-    },
-    {
-      "nome": "Renan",
-      "projeto": "Dança",
-      "data": "01/01/2023",
-      "sobre": "sasa",
-      "id": 5
-    },
-    {
-      "nome": "Thiao",
-      "projeto": "Corte de cabelo",
-      "data": "2022-01-01",
-      "sobre": "Cortar cabelo",
-      "id": 6
-    },
-    {
-      "nome": "Antonio",
-      "projeto": "Filme",
-      "data": "31/05/2023",
-      "sobre": "Assistir film",
-      "id": 7
     }
   ]
 }

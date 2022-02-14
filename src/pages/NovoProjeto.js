@@ -4,6 +4,7 @@ import styles from './NovoProjeto.module.css'
 function NovoProjeto(){
     return(
        <div className={styles.projeto}>
+            
            <h1>Novo Orçamento</h1>
            <Formulario />
        </div>

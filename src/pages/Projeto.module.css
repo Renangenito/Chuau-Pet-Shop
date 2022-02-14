@@ -8,7 +8,8 @@
     width: 90%;
     margin: 0;
     margin: 5em;
-    border-bottom: 1px solid #0075b8;
+    padding: 2em;
+    border: 1px solid #4d4d4d;
 }
 .div_titulo{
     display: flex;
@@ -22,7 +23,7 @@
     font-size: 2em;
     padding: .4em;
     margin-bottom: 0.7em;
-    width: 35%;
+    min-width: 36%;
 
 }
 

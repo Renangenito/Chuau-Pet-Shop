@@ -3,6 +3,7 @@ import ProjectCard from "../projeto/ProjectCard";
 import styles from "./Projetos.module.css";
 function Projetos() {
 const [projetos, setProjetos] = useState([])
+
   useEffect(()=>{
     fetch('http://localhost:5000/projetos', {
       method: 'GET',
@@ -34,6 +35,7 @@ const [projetos, setProjetos] = useState([])
   
   return (
     <div className={styles.projetos}>
+
       <h1>Meus Projetos</h1>
       <div className={styles.cards}>
         {projetos.map((projeto)=>(
@@ -41,7 +43,7 @@ const [projetos, setProjetos] = useState([])
         key={projeto.id}
         projeto={projeto.projeto}
         autor={projeto.nome}
-        data={projeto.data}
+        data={projeto.data = new Date(projeto.data).toLocaleDateString('pt-BR', {timeZone: 'UTC'})}         
         sobre={projeto.sobre}
         id={projeto.id}
         handleRemove={removeProjeto}

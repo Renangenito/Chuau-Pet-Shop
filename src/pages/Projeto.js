@@ -35,6 +35,22 @@ function Projeto() {
       
   }
 
+ function editarProjeto(){
+   fetch(`http://localhost:5000/projetos/${projeto.id}`, {
+      method: "PATCH",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(projeto)
+    })
+      .then((resp) => resp.json())
+      .then((data) => {
+        setProjeto(data);
+      });
+
+   setShowForm(false)
+ }
+
   return (
     <div className={styles.projeto}>
       <div className={styles.edit_card}>
@@ -50,7 +66,7 @@ function Projeto() {
               <span>Autor:</span> {projeto.nome}
             </p>
             <p>
-              <span>Realização:</span> {projeto.data}
+              <span>Realização:</span> {projeto.data = new Date(projeto.data).toLocaleDateString('pt-BR', {timeZone: 'UTC'})} 
             </p>
             <p>
               <span>Sobre: </span>
@@ -95,7 +111,7 @@ function Projeto() {
               value={projeto.sobre || ""}
               handleOnChange={handleChange}
             />
-            <Button text="Concluiur edição"/>
+            <Button handleClick={editarProjeto} text="Concluiur edição"/>
             
           </>
         )}

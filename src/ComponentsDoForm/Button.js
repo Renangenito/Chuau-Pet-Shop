@@ -1,9 +1,9 @@
 import React from 'react';
 import styles from './Button.module.css'
-function Button({text}){
+function Button({text, handleClick}){
     return(
         <div>
-            <button type='submit' className={styles.form_botao}>{text}</button>
+            <button onClick={handleClick} type='submit' className={styles.form_botao}>{text}</button>
         </div>
     )
 }
