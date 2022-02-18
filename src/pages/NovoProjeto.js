@@ -5,7 +5,7 @@ function NovoProjeto(){
     return(
        <div className={styles.projeto}>
             
-           <h1>Novo Orçamento</h1>
+           <h1>Novo Projeto</h1>
            <Formulario />
        </div>
     )
