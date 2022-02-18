@@ -111,7 +111,7 @@ function Projeto() {
               value={projeto.sobre || ""}
               handleOnChange={handleChange}
             />
-            <Button handleClick={editarProjeto} text="Concluiur edição"/>
+            <Button handleClick={editarProjeto} text="Concluir Edição"/>
             
           </>
         )}
